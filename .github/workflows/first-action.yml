@@ -4,8 +4,11 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
+      - name: Print Greeting
+        run: echo "SAMEER DAHIYA"
+      - name: Print greeting2
         run: echo "hello word"
-      - name: Print goodby
-        run: echo "Done - bye!"
+      - name: Print Good by
+        run: echo "DONE- BY SAMEER"
+
       
